@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteTecnico.Presentation", "ConsoleApp1\TesteTecnico.Presentation.csproj", "{82661C82-5BEC-4A83-86D7-652265F317DD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteTecnico.Tests", "TesteTecnico.Tests\TesteTecnico.Tests.csproj", "{752BF689-9506-47CC-BFA9-DC820934F5C5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteTecnico.Infrastructure", "TesteTecnico.Infrastructure\TesteTecnico.Infrastructure.csproj", "{77EA73A0-2765-42CC-9340-53807F45FF11}"
@@ -15,16 +13,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteTecnico.Application", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteTecnico.Persistency.Mock", "TesteTecnico.Persistency.MongoDB\TesteTecnico.Persistency.Mock.csproj", "{2D451718-8371-47F1-8017-1D7D20C7C154}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteTecnico.Presentation", "TesteTecnico.Presentation\TesteTecnico.Presentation.csproj", "{82661C82-5BEC-4A83-86D7-652265F317DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{82661C82-5BEC-4A83-86D7-652265F317DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{82661C82-5BEC-4A83-86D7-652265F317DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{82661C82-5BEC-4A83-86D7-652265F317DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{82661C82-5BEC-4A83-86D7-652265F317DD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{752BF689-9506-47CC-BFA9-DC820934F5C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{752BF689-9506-47CC-BFA9-DC820934F5C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{752BF689-9506-47CC-BFA9-DC820934F5C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{2D451718-8371-47F1-8017-1D7D20C7C154}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D451718-8371-47F1-8017-1D7D20C7C154}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D451718-8371-47F1-8017-1D7D20C7C154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82661C82-5BEC-4A83-86D7-652265F317DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82661C82-5BEC-4A83-86D7-652265F317DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82661C82-5BEC-4A83-86D7-652265F317DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82661C82-5BEC-4A83-86D7-652265F317DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
